@@ -1,5 +1,5 @@
 <p align="center">
-[<b>👉 Read first: Safe Usage</b>](#🛡️-Safe-Usage")
+<p align="center"><a href="#safe-usage"><b>👉 Read first: Safe Usage</b></a></p>
 </p> 
 <p align="center"> 
   <img src="https://img.shields.io/badge/version-1.0.0-blue?style=flat-square" /> 
