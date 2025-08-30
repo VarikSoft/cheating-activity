@@ -18,7 +18,7 @@ Great for journaling, build logs, or “activity bumping”.
 # 🚀 Getting Started
 ``` bash
 # 1) Put the script anywhere you like (repo root is convenient)
-#    e.g., commit_lines_with_delay_en.py
+#    e.g., script.py
 
 # 2) Provide a token (classic PAT or fine-grained):
 #    macOS/Linux
