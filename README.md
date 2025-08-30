@@ -29,7 +29,7 @@ setx GITHUB_TOKEN your_token_here
 $env:GITHUB_TOKEN="your_token_here"
 
 # 3) Run (examples below)
-python commit_lines_with_delay_en.py --help
+python script.py --help
 ```
 
 # 🛠️ Features
@@ -46,7 +46,7 @@ python commit_lines_with_delay_en.py --help
 
 ## Fixed delay (90s):
 
-python commit_lines_with_delay_en.py \
+python script.py \
   --repo yourname/yourrepo \
   --path logs/notes.txt \
   --branch main \
@@ -57,7 +57,7 @@ python commit_lines_with_delay_en.py \
 
 ## Random delay (60–120s):
 
-python commit_lines_with_delay_en.py \
+python script.py \
   --repo yourname/yourrepo \
   --path README.md \
   --branch main \
@@ -67,7 +67,7 @@ python commit_lines_with_delay_en.py \
 
 ## With units (1–2 minutes):
 
-python commit_lines_with_delay_en.py \
+python script.py \
   --repo yourname/yourrepo \
   --path logs/log.txt \
   --branch main \
@@ -78,7 +78,7 @@ python commit_lines_with_delay_en.py \
 
 ## Dry-run preview:
 
-python commit_lines_with_delay_en.py \
+python script.py \
   --repo yourname/yourrepo \
   --path logs/notes.txt \
   --text-file ./notes.txt \
